@@ -7,14 +7,14 @@
  * @package WordPress
  * @subpackage Medieutvecklaren_Standard_Theme
  */
-class Twenty_Eleven_Ephemera_Widget extends WP_Widget {
+class Medieutvecklaren_Ephemera_Widget extends WP_Widget {
 
 	/**
 	 * Constructor
 	 *
 	 * @return void
 	 **/
-	function Twenty_Eleven_Ephemera_Widget() {
+	function Medieutvecklaren_Ephemera_Widget() {
 		$widget_ops = array( 'classname' => 'widget_medieutvecklaren_ephemera', 'description' => __( 'Use this widget to list your recent Aside, Status, Quote, and Link posts', 'medieutvecklaren' ) );
 		$this->WP_Widget( 'widget_medieutvecklaren_ephemera', __( 'Medieutvecklaren Ephemera', 'medieutvecklaren' ), $widget_ops );
 		$this->alt_option_name = 'widget_medieutvecklaren_ephemera';

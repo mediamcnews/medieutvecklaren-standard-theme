@@ -367,7 +367,7 @@ add_filter( 'wp_page_menu_args', 'medieutvecklaren_page_menu_args' );
  */
 function medieutvecklaren_widgets_init() {
 
-	register_widget( 'Twenty_Eleven_Ephemera_Widget' );
+	register_widget( 'Medieutvecklaren_Ephemera_Widget' );
 
 	register_sidebar( array(
 		'name' => __( 'Main Sidebar', 'medieutvecklaren' ),
